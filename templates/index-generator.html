@@ -1,0 +1,20 @@
+<section>
+  <table class="song-index">
+    <tr>
+      <th>Song</th>
+      <th>Date</th>
+    </tr>
+
+    {% for item in context %}
+    <tr class="{{ loop.cycle('odd', 'even') }}">
+      <td width="70%">
+        <a href="listen/{{ item['session'] }}#t={{ item['start']}}">
+          {{ item['title'] }}
+        </a>
+      </td>
+      <td>
+        {{ item['date'] }}
+      </td>
+    {% endfor %}
+  </table>
+</section>

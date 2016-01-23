@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Mirash Ndou</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="In February 1974 the Albanian
+                                      epic singer Mirash Ndou played his lahuta and performed his
+                                      repertoire of legendary, heroic and lyric songs to the
+                                      tape-recorder. The present resource contains his songs both sung
+                                      and dictated, as well as his own comments on his oral art." />
+    
+    
+    <!-- <link rel="stylesheet" href="/static/css/bootstrap.css"> -->
+    <link rel="stylesheet" media="screen" type="text/css" href="/static/css/home.css" />
+    
+    <link rel="stylesheet" href="/static/css/main.css">
+    
+    <script src="/static/podlove-web-player/dist/js/vendor/jquery.min.js"></script>
+    <script src="/static/podlove-web-player/dist/js/podlove-web-moderator.min.js"></script>
+    <script src="/static/js/footnotes.js"></script>
+    
+    
+    <!-- Add head block for input -->
+    
+    
+    
+  </head>
+  
+  <body>
+    <div id="container">      
+      <header class="top">
+        <h1>Mirash Ndou, Albanian singer of tales</h1>
+        <h2>A registration</h2>
+      </header>
+      
+      <div id="content">
+        <nav>
+          <ul class="level-one">
+            <li class=""><a href="/index.html">Home</a></li>
+            <li class=""><a href="/introduction.html">Introduction</a></li>
+            <li class="nav-parent">
+              <a id="recordings" href="#">Recordings</a>
+              <ul class="nav-child">
+                <li class=""><a href="/recordings/10-2.html">Feb. 10, afternoon</a></li>
+                <li class=""><a href="/recordings/11-1.html">Feb. 11, morning</a></li>
+                <li class=""><a href="/recordings/11-2.html">Feb. 11, afternoon</a></li>
+                <li class=""><a href="/recordings/12-1.html">Feb. 12, morning</a></li>
+                <li class="active"><a href="/recordings/12-2.html">Feb. 12, afternoon</a></li>
+                <li class=""><a href="/recordings/13-1.html">Feb. 13, morning</a></li>
+                <li class=""><a href="/recordings/13-2.html">Feb. 13, afternoon</a></li>
+                <li class=""><a href="/recordings/14-1.html">Feb. 14, morning</a></li>
+                <li class=""><a href="/recordings/14-2.html">Feb. 14, afternoon</a></li>
+                <li class=""><a href="/recordings/15-1.html">Feb. 15, morning</a></li>
+                <li class=""><a href="/recordings/16-1.html">Feb. 16, morning</a></li>
+                <li class=""><a href="/recordings/16-2.html">Feb. 16, afternoon</a></li>
+              </ul>
+            </li>
+            <li class=""><a href="/song-index.html">Song index</a></li>
+          </ul>
+        </nav>
+        
+        <!-- Start content block -->
+        <div id="sections">
+          
+          
+          
+          
+
+<section>
+  <article class="player">
+  <h2>Recording</h2>
+  <audio data-podlove-web-player-source="inject/12-2.html">
+    <source src="/static/recordings/12-2.mp3'" type="audio/mp3">
+  </audio>
+  </article>
+</section>
+
+<section>
+  <article>
+    <h2 style="margin-top:20px">Dictated texts</h2>
+    <object style="float:none;display:inline;height:800px;"
+            type="application/pdf"
+            data="/static/pdf/12-2.pdf" width="100%" height="800px">
+    </object>
+  </article>
+
+</section>
+
+
+<script>$('audio').podlovewebplayer();</script>
+
+          
+        </div>
+        
+        <div class="clear"></div>
+      </div>
+      <footer class="mainpage">
+        <div id="footer-rule"></div>
+        <p>Footer text goes here!</p>
+      </footer>
+    </div>
+    
+    
+    <script src="/static/js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+          $('#recordings').click(function() {
+              $('#recordings').next().toggle()
+              $('#index').next().hide()
+              return false;
+          });
+          $('#index').click(function() {
+              $('#index').next().toggle()
+              $('#recordings').next().hide()
+              return false;
+          });
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+          if ($('li').hasClass('active')) {
+              $('.active').parent().addClass('visible')
+          }
+      });
+      
+    </script>
+
+  </body>
+  
+  
+  
+</html>
