@@ -55,6 +55,11 @@ h4 {
     padding-top: 0.3em;
 }
 
+h2#text-header {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
 i {
     font-style: italic;
 }
@@ -67,6 +72,10 @@ a:visited {
 
 a:hover {
     background: $complement;
+}
+
+#text-frame {
+    display: none;
 }
 
 #footbar {
@@ -202,6 +211,7 @@ footer.mainpage {
     p {
         padding: 2%;
         color: $base;
+        font-size: 11px;
     }
 
     #footer-rule {

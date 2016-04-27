@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
-ul {
+ol, ul {
   list-style: none; }
 
 blockquote, q {
@@ -123,6 +123,14 @@ ol {
   padding: 1.2em;
   border: 1px solid #1A4666; }
 
+#textheader {
+  margin-top: 20px;
+  cursor: pointer; }
+
+#textframe {
+  display: none;
+  width: 100%; }
+
 /* Structure */
 #container {
   width: 85%;
@@ -196,7 +204,8 @@ footer.mainpage {
   background: #F2D492; }
   footer.mainpage p {
     padding: 2%;
-    color: #1A4666; }
+    color: #1A4666;
+    font-size: 11px; }
   footer.mainpage #footer-rule {
     border-top: 2px solid #1A4666;
     heigth: 2px; }
@@ -206,10 +215,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-
-ul.level-one {
-    border-bottom: 1px solid #1A4666; 
-}
 
 nav {
   position: relative;
@@ -225,11 +230,11 @@ nav {
     text-decoration: none;
     color: #2C3E50;
     padding-left: 0.6em;
-    border-top: 1px solid #1A4666;
-    border-bottom: 0;}
+    border-bottom: 1px solid #1A4666; }
   nav a:hover {
     background: #1A4666;
-    color: #fff; }
+    color: #fff;
+    border-bottom: 1px solid #F2D492; }
   nav .nav-child a, nav .nav-child a:visited {
     border: none; }
   nav ul {

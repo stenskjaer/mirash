@@ -435,7 +435,7 @@ var ProgressBar = (function ProgressBarClosure() {
 var DEFAULT_PREFERENCES = {
   showPreviousViewOnLoad: true,
   defaultZoomValue: '',
-  sidebarViewOnLoad: true,
+  sidebarViewOnLoad: 2,
   enableHandToolOnLoad: false,
   enableWebGL: false,
   pdfBugEnabled: false,
@@ -6484,7 +6484,7 @@ var PDFViewerApplication = {
   pageRotation: 0,
   isInitialViewSet: false,
   animationStartedPromise: null,
-  preferenceSidebarViewOnLoad: SidebarView.NONE,
+  preferenceSidebarViewOnLoad: SidebarView.OUTLINE,
   preferencePdfBugEnabled: false,
   preferenceShowPreviousViewOnLoad: true,
   preferenceDefaultZoomValue: '',
