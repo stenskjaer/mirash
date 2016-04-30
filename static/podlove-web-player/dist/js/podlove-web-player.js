@@ -3372,31 +3372,31 @@ Controls.prototype.createTimeControls = function (chapterModule) {
     console.info('Controls', 'createTimeControls', 'no chapterTab found');
   }
   if (hasChapters) {
-    this.createButton('pwp-controls-previous-chapter', 'Zurück zum vorigen Kapitel', function () {
+    this.createButton('pwp-controls-previous-chapter', 'Previous item', function () {
       var activeChapter = chapterModule.getActiveChapter();
       if (this.timeline.getTime() > activeChapter.start + 10) {
-        console.debug('Controls', 'Zurück zum Kapitelanfang', chapterModule.currentChapter, 'from', this.timeline.getTime());
+        console.debug('Controls', 'Previous item', chapterModule.currentChapter, 'from', this.timeline.getTime());
         return chapterModule.playCurrentChapter();
       }
-      console.debug('Controls', 'Zurück zum vorigen Kapitel', chapterModule.currentChapter);
+      console.debug('Controls', 'Previous paste', chapterModule.currentChapter);
       return chapterModule.previous();
     });
   }
 
-  this.createButton('pwp-controls-back-30', '30 Sekunden zurück', function () {
+  this.createButton('pwp-controls-back-30', '30 seconds back', function () {
     console.debug('Controls', 'rewind before', this.timeline.getTime());
     this.timeline.setTime(this.timeline.getTime() - 30);
     console.debug('Controls', 'rewind after', this.timeline.getTime());
   });
 
-  this.createButton('pwp-controls-forward-30', '30 Sekunden vor', function () {
+  this.createButton('pwp-controls-forward-30', '30 seconds forwards', function () {
     console.debug('Controls', 'ffwd before', this.timeline.getTime());
     this.timeline.setTime(this.timeline.getTime() + 30);
     console.debug('Controls', 'ffwd after', this.timeline.getTime());
   });
 
   if (hasChapters) {
-    this.createButton('pwp-controls-next-chapter', 'Zum nächsten Kapitel springen', function () {
+    this.createButton('pwp-controls-next-chapter', 'Next item', function () {
       console.debug('Controls', 'next Chapter before', this.timeline.getTime());
       chapterModule.next();
       console.debug('Controls', 'next Chapter after', this.timeline.getTime());
@@ -3581,7 +3581,7 @@ function renderTitleArea(params) {
  * @returns {string}
  */
 function renderPlaybutton() {
-  return $('<a class="play" title="Abspielen" href="javascript:;"></a>');
+  return $('<a class="play" title="Play" href="javascript:;"></a>');
 }
 
 /**
@@ -3968,13 +3968,13 @@ function render(html) {
  */
 function renderChapterTable() {
   return render(
-    '<table class="podlovewebplayer_chapters"><caption>Kapitel</caption>' +
+    '<table class="podlovewebplayer_chapters"><caption>Item</caption>' +
       '<thead>' +
         '<tr>' +
-          '<th scope="col">Kapitelnummer</th>' +
-          '<th scope="col">Startzeit</th>' +
-          '<th scope="col">Titel</th>' +
-          '<th scope="col">Dauer</th>' +
+          '<th scope="col">Itemnumber</th>' +
+          '<th scope="col">Startpage</th>' +
+          '<th scope="col">Title</th>' +
+          '<th scope="col">Duration</th>' +
         '</tr>' +
       '</thead>' +
       '<tbody></tbody>' +
@@ -4067,8 +4067,8 @@ function Chapters (timeline, params) {
 
   this.tab = new Tab({
     icon: 'pwp-chapters',
-    title: 'Kapitel anzeigen / verbergen',
-    headline: 'Kapitel',
+    title: 'Show / hide items',
+    headline: 'Items',
     name: 'chapters'
   });
 
@@ -4292,7 +4292,7 @@ Downloads.prototype.createDownloadTab = function (params) {
   }
   var downloadTab = new Tab({
     icon: 'pwp-download',
-    title: 'Downloads anzeigen / verbergen',
+    title: 'Show / hide downloads',
     name: 'downloads',
     headline: 'Download'
   });
@@ -4373,7 +4373,7 @@ function createEpisodeInfo(tab, params) {
      getPublicationDate(params.publicationDate) +
     '<p>' +
       'Permalink:<br>' +
-      '<a href="' + params.permalink + '" target="_blank" title="Permalink für die Episode">' + params.permalink + '</a>' +
+      '<a href="' + params.permalink + '" target="_blank" title="Permalink to the recordin">' + params.permalink + '</a>' +
     '</p>'
   );
 }
@@ -4403,8 +4403,8 @@ function createShowInfo (tab, params) {
     '<h3>' + params.show.subtitle + '</h3>' +
     createPosterImage(params.show.poster) +
     createSubscribeButton(params) +
-    '<p>Link zur Show:<br>' +
-      '<a href="' + params.show.url + '" target="_blank" title="Link zur Show">' + params.show.url + '</a></p>'
+    '<p>Link to show:<br>' +
+      '<a href="' + params.show.url + '" target="_blank" title="Link to show">' + params.show.url + '</a></p>'
   );
 }
 
@@ -4452,7 +4452,7 @@ function createInfoTab(params) {
   // }
   var infoTab = new Tab({
     icon: 'pwp-info',
-    title: 'Infos anzeigen / verbergen',
+    title: 'Show / hide info',
     headline: 'Info',
     name: 'info'
   });
@@ -4902,13 +4902,13 @@ function createShareTab(params) {
 
   var shareTab = new Tab({
     icon: 'pwp-share',
-    title: 'Teilen anzeigen / verbergen',
+    title: 'Show / hide sharing',
     name: 'share',
     headline: 'Teilen'
   });
 
   shareButtons = new SocialButtonList(services, getShareData('episode'));
-  linkInput = $('<h3>Direkter Link</h3>' +
+  linkInput = $('<h3>Direct Link</h3>' +
     '<input type="url" name="share-link-url" readonly>');
   linkInput.update = function(data) {
     this.val(data.rawUrl);
@@ -4916,7 +4916,7 @@ function createShareTab(params) {
 
   shareTab.createMainContent('')
     .append(createShareOptions(params))
-    .append('<h3>Teilen via ...</h3>')
+    .append('<h3>Share via ...</h3>')
     .append(shareButtons.list);
   shareTab.createFooter('').append(linkInput);
 
