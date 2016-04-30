@@ -1,4 +1,7 @@
-/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -83,6 +86,10 @@ h4 {
   line-height: 1.2;
   padding-top: 0.3em; }
 
+h2#textheader {
+  margin-top: 20px;
+  cursor: pointer; }
+
 i {
   font-style: italic; }
 
@@ -93,6 +100,10 @@ a:visited {
 
 a:hover {
   background: #F2D492; }
+
+#textframe {
+  display: none;
+  width: 100%; }
 
 #footbar {
   width: 30%;
@@ -122,14 +133,6 @@ ol {
   background: #fff;
   padding: 1.2em;
   border: 1px solid #1A4666; }
-
-#textheader {
-  margin-top: 20px;
-  cursor: pointer; }
-
-#textframe {
-  display: none;
-  width: 100%; }
 
 /* Structure */
 #container {

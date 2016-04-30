@@ -55,7 +55,7 @@ h4 {
     padding-top: 0.3em;
 }
 
-h2#text-header {
+h2#textheader {
     margin-top: 20px;
     cursor: pointer;
 }
@@ -74,8 +74,9 @@ a:hover {
     background: $complement;
 }
 
-#text-frame {
+#textframe {
     display: none;
+    width:100%;
 }
 
 #footbar {

@@ -128,10 +128,14 @@
 
          $(document).ready(function() {
              $cur_src = $('#textframe').attr('src');
-             $('#textframe').attr('src', $cur_src + '#page=' + getUrlVars()['page'])
+             $page_param = getUrlVars()['page']
+             if ($page_param) {
+                 $('#textframe').attr('src', $cur_src + '#page=' + getUrlVars()['page'])
+                 $('#textframe').toggle()
+                 return false;
+             }
          })
         </script>
-
     </body>
 
     {% block scripts %}
