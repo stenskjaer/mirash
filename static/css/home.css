@@ -101,10 +101,10 @@ a:visited {
 a:hover {
   background: #F2D492; }
 
-#textframe {
+#textframe-wrapper {
   display: none; }
 
-#textframe iframe {
+#textframe {
   width: 100%; }
 
 #footbar {

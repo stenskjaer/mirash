@@ -102,7 +102,7 @@
         <script>
          $(document).ready(function() {
              $('#textheader').click(function() {
-                 $('#textframe').toggle()
+                 $('#textframe-wrapper').toggle()
                  return false;
              });
          });
@@ -131,7 +131,7 @@
              $page_param = getUrlVars()['page']
              if ($page_param) {
                  $('#textframe').attr('src', $cur_src + '#page=' + getUrlVars()['page'])
-                 $('#textframe').toggle()
+                 $('#textframe-wrapper').toggle()
                  return false;
              }
          })

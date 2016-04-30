@@ -1,3 +1,7 @@
+{{ '{% extends "base.html" %}' }}
+
+{{ '{% block body %}' }}
+
 <section>
   <table class="song-index">
     <tr>
@@ -8,13 +12,18 @@
     {% for item in context %}
     <tr class="{{ loop.cycle('odd', 'even') }}">
       <td width="70%">
-        <a href="listen/{{ item['session'] }}#t={{ item['start']}}">
-          {{ item['title'] }}
-        </a>
+        {% if item['page'] %}
+        <a href="recordings/{{ item['session'] }}.html?page={{ item['page']}}">
+          {% else %}
+          <a href="recordings/{{ item['session'] }}.html#t={{ item['start']}}">
+            {% endif %}
+            {{ item['title'] }}
+          </a>
       </td>
       <td>
         {{ item['date'] }}
       </td>
-    {% endfor %}
+      {% endfor %}
   </table>
 </section>
+{{ '{% endblock %}' }}}

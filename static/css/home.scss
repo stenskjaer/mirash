@@ -74,10 +74,10 @@ a:hover {
     background: $complement;
 }
 
-#textframe {
+#textframe-wrapper {
     display: none;
 }
-#textframe iframe {
+#textframe {
     width:100%;
 }
 

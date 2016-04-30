@@ -52,14 +52,16 @@ def generate_recording_pages():
             f.write(html)
 
 
-def generate_song_index(session_dictionary):
+def generate_song_index():
     """Return a list of nav.Items with deep link references to each song. 
     """
+    session_dictionary = data.session_dict
     title_info = []
-    
+
     for session in sorted(data.session_dict):
         for recording in session_dictionary[session]['chapters']:
-            if recording[2]:
+            # First, try adding session data with song number
+            try:
                 title_info.append(
                     {
                         'session': session,
@@ -70,10 +72,31 @@ def generate_song_index(session_dictionary):
                         ', ' + session_name(session_dictionary[session]['session']),
                     }
                 )
+            except IndexError:
+                pass
+
+            # Then, try adding session data with page info
+            try:
+                title_info.append(
+                    {
+                        'session': session,
+                        'title': '{0}'.format(
+                            ','.join(recording[1][1].split(',')[:-1]) +
+                            ', transcription'
+                        ),
+                        'start': recording[0][1],
+                        'sort': recording[2][1],
+                        'page': recording[3][1],
+                        'date': session_dictionary[session]['date'] +
+                        ', ' + session_name(session_dictionary[session]['session']),
+                    }
+                )
+            except IndexError:
+                pass
 
     sorted_context = sorted(title_info, key=lambda x: x['sort'])
     with open('pages/song-index.html', 'w') as f:
-        html = render_template('index-generator.html', context=sorted_context)
+        html = render_template('index-generator.html', {'context':sorted_context})
         f.write(html)
 
 
@@ -81,6 +104,7 @@ def generate_song_index(session_dictionary):
 def main():
     generate_player_statics()
     generate_recording_pages()
+    generate_song_index()
 
 if __name__ == "__main__":
     main()
