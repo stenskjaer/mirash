@@ -102,7 +102,9 @@ a:hover {
   background: #F2D492; }
 
 #textframe {
-  display: none;
+  display: none; }
+
+#textframe iframe {
   width: 100%; }
 
 #footbar {

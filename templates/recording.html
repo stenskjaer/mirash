@@ -10,9 +10,13 @@
     </audio>
 
     <h2 id="textheader">Dictated texts</h2>
+    <div id="textframe">
+        <p>
+            To hide the content pane, click the side bar symbol <img style="height:20px;" src="/static/images/pane.png" />
+        </p>
+        <iframe src="/viewer.html?file=/static/pdf/{{ session }}.pdf" width="500" height="800"></iframe>
 
-    <iframe id="textframe" src="/viewer.html?file=/static/pdf/{{ session }}.pdf" width="500" height="800"></iframe>
-
+    </div>
   </article>
 
 </section>
