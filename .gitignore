@@ -127,6 +127,10 @@ tramp
 
 # Cactus
 .build/
+.deploy/
+
+# Sass
+.sass-cache/
 
 # pdfs and mp3
 *.mp3
