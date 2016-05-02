@@ -6,6 +6,7 @@ session_dict = {
         'session': 2,
         'pub_date': '2015-09-16',
         'duration': '00:14:24.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: three waitresses. Kol Leka and Tom Marashi.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
@@ -30,6 +31,7 @@ session_dict = {
         'session': 1,
         'pub_date': '2015-09-16',
         'duration': '01:47:10.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: Freddie.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
@@ -85,6 +87,7 @@ session_dict = {
         'session': 2,
         'pub_date': '2015-09-16',
         'duration': '01:15:48.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: Kahreman Ulqini.',
         'chapters': [
             [
                 ['start', '00:00:0'],
@@ -140,6 +143,7 @@ session_dict = {
         'session': 1,
         'pub_date': '2015-09-16',
         'duration': '02:29:12.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: Freddie. Kahreman Ulqini.',
         'chapters': [
             [
                 ['start', '00:00:08.750'],
@@ -217,6 +221,7 @@ session_dict = {
         'session': 2,
         'pub_date': '2015-09-16',
         'duration': '01:05:32.000',
+        'description': 'Present: Mirash, Gjovalin, Minna.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
@@ -268,6 +273,7 @@ session_dict = {
         'session': 1,
         'pub_date': '2015-09-16',
         'duration': '02:19:25.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: Kahreman Ulqini.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
@@ -321,6 +327,7 @@ session_dict = {
         'session': 2,
         'pub_date': '2015-09-16',
         'duration': '00:18:25.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: Kahreman Ulqini.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
@@ -340,6 +347,7 @@ session_dict = {
         'session': 1,
         'pub_date': '2015-09-16',
         'duration': '02:42:10.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: Kahreman Ulqini.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
@@ -423,6 +431,7 @@ session_dict = {
         'session': 2,
         'pub_date': '2015-09-16',
         'duration': '01:33:38.000',
+        'description': 'Present: Mirash, Gjovalin, Minna.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
@@ -473,6 +482,7 @@ session_dict = {
         'session': 1,
         'pub_date': '2015-09-16',
         'duration': '02:09:33.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: A waitress. Kahreman Ulqini.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
@@ -544,6 +554,7 @@ session_dict = {
         'session': 1,
         'pub_date': '2015-09-16',
         'duration': '01:16:25.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: Bahri Beci and Bjarne Basse. The director of the hotel. A waitress.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
@@ -606,6 +617,7 @@ session_dict = {
         'session': 2,
         'pub_date': '2015-09-16',
         'duration': '01:22:05.000',
+        'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: Bahri Beci and Bjarne Basse.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],

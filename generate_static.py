@@ -36,6 +36,7 @@ def generate_player_statics():
             'chapters': data.session_dict[item]['chapters'],
             'duration': data.session_dict[item]['duration'],
             'session': item,
+            'description': data.session_dict[item]['description'],
         }
         with open('pages/recordings/inject/' + item + '.html', 'w') as f:
             html = render_template('player.html', context)
