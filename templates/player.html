@@ -27,7 +27,7 @@
       $('audio').podlovewebplayer({
           title: '{{ title }}',
           subtitle: '',
-          permalink: '/listen/{{ session }}',
+          permalink: '/recordings/{{ session }}',
           publicationDate: '{{ pub_date}}',
           license: {
               "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
@@ -56,6 +56,10 @@
           duration: '{{ duration }}',
           alwaysShowHours: true,
           width: 'auto',
+          license: {
+              url: 'http://creativecommons.org/licenses/by-nc-nd/4.0/',
+              name: 'Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License',
+          },
           hidesharebutton: true,
           chaptersVisible: true,
           features: [],

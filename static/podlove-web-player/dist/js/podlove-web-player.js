@@ -4332,7 +4332,7 @@ Downloads.prototype.createDownloadTab = function (params) {
   $select.on('change', setUrl);
 
   downloadTab
-    .createFooter('<h3>Direkter Link</h3>')
+    .createFooter('<h3>Direct link</h3>')
     .append($downloadLinkElement);
 
   return downloadTab;
@@ -4354,7 +4354,7 @@ function getPublicationDate(rawDate) {
     return '';
   }
   var date = new Date(rawDate);
-  return '<p>Veröffentlicht am: ' + date.getDate() + '.' + (date.getMonth() + 1) + '.' + date.getFullYear() + '</p>';
+  return '<p>Published on: ' + date.getDate() + '.' + (date.getMonth() + 1) + '.' + date.getFullYear() + '</p>';
 }
 
 function getSummary (summary) {
@@ -4369,7 +4369,7 @@ function createEpisodeInfo(tab, params) {
     '<h2>' + params.title + '</h2>' +
     '<h3>' + params.subtitle + '</h3>' +
     getSummary(params.summary) +
-    '<p>Dauer: ' + timeCode.fromTimeStamp(params.duration) + '</p>' +
+    '<p>Length: ' + timeCode.fromTimeStamp(params.duration) + '</p>' +
      getPublicationDate(params.publicationDate) +
     '<p>' +
       'Permalink:<br>' +
@@ -4434,8 +4434,8 @@ function createSocialAndLicenseInfo (tab, params) {
     return;
   }
   var footer = tab.createFooter(
-    '<p>Die Show "' + params.show.title + '" ist lizensiert unter<br>' +
-      '<a href="' + params.license.url + '" target="_blank" title="Lizenz ansehen">' + params.license.name + '</a>' +
+    '<p>The recordings of the performances of Mirash Ndou have been licensed under the<br>' +
+      '<a href="' + params.license.url + '" target="_blank" title="See license">' + params.license.name + '</a>' +
     '</p>'
   )
   footer.prepend(createSocialInfo(params.profiles));
