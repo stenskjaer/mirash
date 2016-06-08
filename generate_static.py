@@ -83,7 +83,7 @@ def generate_song_index():
                         'session': session,
                         'title': '{0}'.format(
                             ','.join(recording[1][1].split(',')[:-1]) +
-                            ', written text'
+                            ', written'
                         ),
                         'start': recording[0][1],
                         'sort': recording[2][1],
