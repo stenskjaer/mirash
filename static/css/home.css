@@ -48,7 +48,7 @@ table {
 /* $blue: #1A4666; */
 /* $blue2: #0E116C; */
 /* $sand: #EFE8CB; */
-/* $red: #9F0016; */
+/* $red: #AA3232; */
 /* $backBlue: #E0E4EF; */
 html, body {
   height: 100%;
@@ -95,8 +95,8 @@ i {
 
 a,
 a:visited {
-  color: #1A4666;
-  border-bottom: 1px solid #F2D492; }
+  color: #AA3232;
+  border-bottom: 1px solid #AA3232; }
 
 a:hover {
   background: #F2D492; }

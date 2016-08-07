@@ -5,12 +5,12 @@ $font-stack: 'Open Sans', 'Helvetica', sans-serif;
 /* $blue: #1A4666; */
 /* $blue2: #0E116C; */
 /* $sand: #EFE8CB; */
-/* $red: #9F0016; */
+/* $red: #AA3232; */
 /* $backBlue: #E0E4EF; */
 
 $base: #1A4666;
-$complement: #F2D492;
-$lightBase: #32719E;
+$compliment: #F2D492;
+$highlight: #AA3232;
 
 
 html, body {
@@ -27,7 +27,7 @@ body {
 
 h1 {
    color: $base;
-   border-bottom: 1px solid $complement;
+   border-bottom: 1px solid $compliment;
    font-size: 1.6em;
    line-height: 1.6;
    padding-top: 0.4em;
@@ -35,7 +35,7 @@ h1 {
 
 h2 {
    color: $base;
-   border-bottom: 1px solid $complement;
+   border-bottom: 1px solid $compliment;
    font-size: 1.4em;
    line-height: 1.4;
    padding-top: 0.3em;
@@ -43,7 +43,7 @@ h2 {
 
 h3 {
    color: $base;
-   border-bottom: 1px solid $complement;
+   border-bottom: 1px solid $compliment;
    font-size: 1.3em;
    line-height: 1.3;
    padding-top: 0.3em;
@@ -66,12 +66,12 @@ i {
 
 a,
 a:visited {
-    color: $base;
-    border-bottom: 1px solid $complement;
+    color: $highlight;
+    border-bottom: 1px solid $highlight;
 }
 
 a:hover {
-    background: $complement;
+    background: $compliment;
 }
 
 #textframe-wrapper {
@@ -84,7 +84,7 @@ a:hover {
 #footbar {
     width: 30%;
     padding-top: 2em;
-    border-bottom: 1px solid $complement;
+    border-bottom: 1px solid $compliment;
     height: 1px;
 }
 a {
@@ -191,13 +191,13 @@ header.top {
     padding: 24px 4%;
 
     h1 {
-        color: $complement;
+        color: $compliment;
         font-size: 2.2em;
         padding:0;
     }
 
     h2 {
-        color: $complement;
+        color: $compliment;
         border: none;
     }
 }
@@ -209,7 +209,7 @@ footer.mainpage {
     left: 0;
     height: 50px;
     width: 100%;
-    background: $complement;
+    background: $compliment;
     
     p {
         padding: 2%;
@@ -237,7 +237,7 @@ nav {
     float: left;
     width: 25%;
     
-    .active { background: $complement; }
+    .active { background: $compliment; }
     
     a, a:visited {
            display: block;
@@ -251,7 +251,7 @@ nav {
     a:hover {
         background: $base;
         color: #fff;
-        border-bottom: 1px solid $complement;
+        border-bottom: 1px solid $compliment;
     }
     
     .nav-child {
