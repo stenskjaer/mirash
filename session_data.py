@@ -30,7 +30,7 @@ session_dict = {
         'date': 'Feb. 11',
         'session': 1,
         'pub_date': '2016-06-08',
-        'duration': '01:47:10.000',
+        'duration': '01:49:13.000',
         'description': 'Present: Mirash, Gjovalin, Minna. Part of the time: Freddie.',
         'chapters': [
             [
@@ -55,28 +55,28 @@ session_dict = {
                 ['song', 3],
             ],
             [
-                ['start', '00:44:32.000'],
+                ['start', '00:46:43.000'],
                 ['title', 'Conversation'],
                 [],
             ],
             [
-                ['start', '00:50:17.000'],
+                ['start', '00:53:39.000'],
                 ['title', 'II. Zuku wins Rusha, dictated'],
                 ['song', 5],
                 ['page', 9],
             ],
             [
-                ['start', '01:09:50.000'],
+                ['start', '01:16:24.300'],
                 ['title', 'Conversation'],
                 [],
             ],
             [
-                ['start', '01:24:09.000'],
+                ['start', '01:30:39.300'],
                 ['title', '1. Marash from Shosh and the pasha in Shkodra, narrated (not dictated)'],
                 ['song', 34],
             ],
             [
-                ['start', '01:30:46.000'],
+                ['start', '01:37:19.000'],
                 ['title', 'Conversation'],
                 [],
             ],
@@ -210,7 +210,7 @@ session_dict = {
                 [],
             ],
             [
-                ['start', '02:20:30.000'],
+                ['start', '02:29:33.000'],
                 ['title', 'Vb. Tbani Zadrili, sung'],
                 ['song', 12],
             ],
@@ -229,40 +229,40 @@ session_dict = {
                 [],
             ],
             [
-                ['start', '00:00:46.000'],
+                ['start', '00:00:44.000'],
                 ['title', 'VI. Young Imer, sung'],
                 ['song', 13],
                 ['page', 1],
             ],
             [
-                ['start', '00:07:48.000'],
+                ['start', '00:07:50.000'],
                 ['title', 'VII. The king in Kotorr, sung'],
                 ['song', 15],
                 ['page', 4],
             ],
             [
-                ['start', '00:24:10.000'],
+                ['start', '00:24:51.000'],
                 ['title', 'Conversation'],
                 [],
             ],
             [
-                ['start', '00:28:39.000'],
+                ['start', '00:29:18.000'],
                 ['title', 'VIII. Hysen the poor, sung'],
                 ['song', 17],
                 ['page', 11]
             ],
             [
-                ['start', '00:35:50.000'],
+                ['start', '00:36:30.000'],
                 ['title', 'Conversation'],
                 [],
             ],
             [
-                ['start', '00:51:25.000'],
+                ['start', '00:51:54.000'],
                 ['title', 'IX. Muji and Halil visit the sultan, narrated (not dictated)'],
                 ['song', 19],
             ],
             [
-                ['start', '00:57:06.000'],
+                ['start', '00:57:41.000'],
                 ['title', 'X. The thirty agas, sung (not dictated)'],
                 ['song', 20],
             ],
@@ -486,53 +486,48 @@ session_dict = {
         'chapters': [
             [
                 ['start', '00:00:00.000'],
-                ['title', 'Conversation'],
-                ['song', 48],
-            ],
-            [
-                ['start', '00:00:11.000'],
                 ['title', '9. Mehme Shp&euml;ni, sung'],
                 ['song', 48],
                 ['page', 1],
             ],
             [
-                ['start', '00:09:17.000'],
+                ['start', '00:09:10.000'],
                 ['title', 'Conversation'],
                 [],
             ],
             [
-                ['start', '00:10:33.000'],
+                ['start', '00:10:27.000'],
                 ['title', '9. Mehme Shp&euml;ni, dictated'],
                 ['song', 49],
             ],
             [
-                ['start', '00:22:50.000'],
+                ['start', '00:22:53.000'],
                 ['title', 'Conversation'],
                 [],
             ],
             [
-                ['start', '00:32:14.000'],
+                ['start', '00:32:17.800'],
                 ['title', 'XV. Muji\'s wedding, sung'],
                 ['song', 28],
                 ['page', 3],
             ],
             [
-                ['start', '00:53:22.000'],
+                ['start', '00:53:43.000'],
                 ['title', 'XV. Muji\'s wedding, dictated'],
                 ['song', 29],
             ],
             [
-                ['start', '01:19:54.000'],
+                ['start', '01:19:58.000'],
                 ['title', 'Conversation'],
                 [],
             ],
             [
-                ['start', '01:35:43.000'],
+                ['start', '01:35:21.000'],
                 ['title', '10. The war against the Italians, recited'],
                 ['song', 52],
             ],
             [
-                ['start', '01:40:16.000'],
+                ['start', '01:40:30.000'],
                 ['title', '10. The war against the Italians, sung'],
                 ['song', 50],
                 ['page', 8],
@@ -543,7 +538,7 @@ session_dict = {
                 [],
             ],
             [
-                ['start', '01:53:41.000'],
+                ['start', '01:53:39.000'],
                 ['title', '10. The war against the Italians, dictated'],
                 ['song', 51],
             ],
