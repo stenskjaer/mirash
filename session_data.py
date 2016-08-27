@@ -486,7 +486,7 @@ session_dict = {
         'chapters': [
             [
                 ['start', '00:00:00.000'],
-                ['title', '9. Mehme Shp&euml;ni, sung'],
+                ['title', '9. Mehme Shpëni, sung'],
                 ['song', 48],
                 ['page', 1],
             ],
@@ -497,7 +497,7 @@ session_dict = {
             ],
             [
                 ['start', '00:10:27.000'],
-                ['title', '9. Mehme Shp&euml;ni, dictated'],
+                ['title', '9. Mehme Shpëni, dictated'],
                 ['song', 49],
             ],
             [
