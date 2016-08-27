@@ -22,7 +22,7 @@ session_dict = {
                 ['start', '00:06:21.000'],
                 ['title', 'Ia. Ali the standard-bearer, sung'],
                 ['song', 1],
-                ['page', 1],
+                #['page', 1],
             ],
         ],
     },
@@ -42,7 +42,7 @@ session_dict = {
                 ['start', '00:02:09.000'],
                 ['title', 'Ib. Ali the standard-bearer, sung'],
                 ['song', 2],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:13:04.000'],
@@ -63,7 +63,7 @@ session_dict = {
                 ['start', '00:53:39.000'],
                 ['title', 'II. Zuku wins Rusha, dictated'],
                 ['song', 5],
-                ['page', 9],
+                #['page', 9],
             ],
             [
                 ['start', '01:16:24.300'],
@@ -108,7 +108,7 @@ session_dict = {
                 ['start', '00:20:34.600'],
                 ['title', 'IV. The old man and the sea monster, sung'],
                 ['song', 8],
-                ['page', 5],
+                #['page', 5],
             ],
             [
                 ['start', '00:46:21.000'],
@@ -119,7 +119,7 @@ session_dict = {
                 ['start', '00:52:09.200'],
                 ['title', 'III. Rozafat, dictated'],
                 ['song', 7],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '01:02:07.000'],
@@ -149,7 +149,7 @@ session_dict = {
                 ['start', '00:00:08.750'],
                 ['title', 'IV. The old man and the sea monster, dictated'],
                 ['song', 10],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:49:46.000'],
@@ -160,13 +160,13 @@ session_dict = {
                 ['start', '01:02:52.250'],
                 ['title', '3. Enver Hoxha, recited'],
                 ['song', 38],
-                ['page', 12],
+                #['page', 12],
             ],
             [
                 ['start', '01:04:47.250'],
                 ['title', '4. Enhver Hoxha, recited'],
                 ['song', 40],
-                ['page', 15],
+                #['page', 15],
             ],
             [
                 ['start', '01:07:34.400'],
@@ -202,7 +202,7 @@ session_dict = {
                 ['start', '01:49:46.400'],
                 ['title', 'Va. Tbani Zadrili, sung'],
                 ['song', 11],
-                ['page', 18],
+                #['page', 18],
             ],
             [
                 ['start', '02:11:22.000'],
@@ -232,13 +232,13 @@ session_dict = {
                 ['start', '00:00:44.000'],
                 ['title', 'VI. Young Imer, sung'],
                 ['song', 13],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:07:50.000'],
                 ['title', 'VII. The king in Kotorr, sung'],
                 ['song', 15],
-                ['page', 4],
+                #['page', 4],
             ],
             [
                 ['start', '00:24:51.000'],
@@ -249,7 +249,7 @@ session_dict = {
                 ['start', '00:29:18.000'],
                 ['title', 'VIII. Hysen the poor, sung'],
                 ['song', 17],
-                ['page', 11]
+                #['page', 11]
             ],
             [
                 ['start', '00:36:30.000'],
@@ -284,25 +284,25 @@ session_dict = {
                 ['start', '00:01:54.000'],
                 ['title', 'V. Tbani Zadrili, dictated'],
                 ['song', 12],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:50:36.000'],
                 ['title', 'VII. The king in Kotorr, dictated'],
                 ['song', 16],
-                ['page', 11],
+                #['page', 11],
             ],
             [
                 ['start', '01:19:32.000'],
                 ['title', 'VI. Young Imer, dictated'],
                 ['song', 14],
-                ['page', 17],
+                #['page', 17],
             ],
             [
                 ['start', '01:27:41.000'],
                 ['title', 'VIII. Hysen the poor, dictated'],
                 ['song', 18],
-                ['page', 21],
+                #['page', 21],
             ],
             [
                 ['start', '01:41:28.000'],
@@ -311,9 +311,9 @@ session_dict = {
             ],
             [
                 ['start', '01:46:13.000'],
-                ['title', 'IV. The old man and the sea monster, sung'],
+                ['title', 'IV². The old man and the sea monster, sung'],
                 ['song', 9],
-                ['page', 25]
+                #['page', 25]
             ],
             [
                 ['start', '02:10:47.000'],
@@ -333,7 +333,7 @@ session_dict = {
                 ['start', '00:00:00.000'],
                 ['title', 'XI. Aga Hasan Aga, sung'],
                 ['song', 21],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:13:24.000'],
@@ -358,13 +358,13 @@ session_dict = {
                 ['start', '00:02:51.000'],
                 ['title', 'XII. Omer, Muji\'s son, sung'],
                 ['song', 23],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:21:47.000'],
                 ['title', 'XI. Aga Hasan Aga, dictated'],
                 ['song', 22],
-                ['page', 7],
+                #['page', 7],
             ],
             [
                 ['start', '00:46:11.000'],
@@ -385,7 +385,7 @@ session_dict = {
                 ['start', '1:18:54.000'],
                 ['title', '5. Marash Pali, dictated'],
                 ['song', 42],
-                ['page', 13],
+                #['page', 13],
             ],
             [
                 ['start', '01:27:02.000'],
@@ -396,7 +396,7 @@ session_dict = {
                 ['start', '1:33:19.000'],
                 ['title', '6. Lament, sung'],
                 ['song', 43],
-                ['page', 16],
+                #['page', 16],
             ],
             [
                 ['start', '01:36:20.000'],
@@ -407,7 +407,7 @@ session_dict = {
                 ['start', '1:43:15.000'],
                 ['title', '7. Wedding songs, sung'],
                 ['song', 45],
-                ['page', 20],
+                #['page', 20],
             ],
             [
                 ['start', '01:45:12.000'],
@@ -437,7 +437,7 @@ session_dict = {
                 ['start', '00:00:00.000'],
                 ['title', 'XIII. Garentina, sung'],
                 ['song', 25],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:12:17.000'],
@@ -448,7 +448,7 @@ session_dict = {
                 ['start', '00:20:13.000'],
                 ['title', '8. The youngsters from Theth, sung'],
                 ['song', 46],
-                ['page', 5],
+                #['page', 5],
             ],
             [
                 ['start', '00:33:22.000'],
@@ -488,7 +488,7 @@ session_dict = {
                 ['start', '00:00:00.000'],
                 ['title', '9. Mehme Shpëni, sung'],
                 ['song', 48],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:09:10.000'],
@@ -509,7 +509,7 @@ session_dict = {
                 ['start', '00:32:17.800'],
                 ['title', 'XV. Muji\'s wedding, sung'],
                 ['song', 28],
-                ['page', 3],
+                #['page', 3],
             ],
             [
                 ['start', '00:53:43.000'],
@@ -530,7 +530,7 @@ session_dict = {
                 ['start', '01:40:30.000'],
                 ['title', '10. The war against the Italians, sung'],
                 ['song', 50],
-                ['page', 8],
+                #['page', 8],
             ],
             [
                 ['start', '01:49:02.000'],
@@ -555,7 +555,7 @@ session_dict = {
                 ['start', '00:00:00.000'],
                 ['title', '11. Halil and Hajri, sung'],
                 ['song', 53],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:06:28.000'],
@@ -571,7 +571,7 @@ session_dict = {
                 ['start', '00:17:19.000'],
                 ['title', '12. Harejdin, sung'],
                 ['song', 55],
-                ['page', 3],
+                #['page', 3],
             ],
             [
                 ['start', '00:21:46.000'],
@@ -582,7 +582,7 @@ session_dict = {
                 ['start', '00:28:16.000'],
                 ['title', 'XVI. Halil\'s wedding, sung'],
                 ['song', 30],
-                ['page', 4],
+                #['page', 4],
             ],
             [
                 ['start', '00:43:33.000'],
@@ -596,9 +596,9 @@ session_dict = {
             ],
             [
                 ['start', '00:51:10.000'],
-                ['title', 'II. Zuku wins Rusha, sung'],
+                ['title', 'II². Zuku wins Rusha, sung'],
                 ['song', 4],
-                ['page', 8],
+                #['page', 8],
             ],
             [
                 ['start', '01:04:25.000'],
@@ -623,7 +623,7 @@ session_dict = {
                 ['start', '00:00:41.800'],
                 ['title', 'XVII. Old Qefanak\'s wedding, sung'],
                 ['song', 32],
-                ['page', 1],
+                #['page', 1],
             ],
             [
                 ['start', '00:10:54.000'],
@@ -639,13 +639,13 @@ session_dict = {
                 ['start', '00:42:53.000'],
                 ['title', '13. Lyrical song, sung'],
                 ['song', 57],
-                ['page', 4],
+                #['page', 4],
             ],
             [
                 ['start', '00:47:22.000'],
                 ['title', '14. Lyrical song, sung'],
                 ['song', 59],
-                ['page', 5],
+                #['page', 5],
             ],
             [
                 ['start', '00:52:40.000'],

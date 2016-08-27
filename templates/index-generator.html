@@ -6,22 +6,22 @@
   <table class="song-index">
     <tr>
       <th>Song</th>
-      <th>Date</th>
+      <th>Recording</th>
     </tr>
 
     {% for item in context %}
     <tr class="{{ loop.cycle('odd', 'even') }}">
-      <td width="70%">
+      <td width="50%">
         {% if item['page'] %}
         <a href="recordings/{{ item['session'] }}.html?page={{ item['page']}}">
-          {% else %}
-          <a href="recordings/{{ item['session'] }}.html#t={{ item['start']}}">
-            {% endif %}
-            {{ item['title'] }}
-          </a>
+        {% else %}
+        <a href="recordings/{{ item['session'] }}.html#t={{ item['start']}}">
+        {% endif %}
+        {{ item['number'] }}
+        </a>
       </td>
       <td>
-        {{ item['date'] }}
+        {{ item['type'] }}
       </td>
       {% endfor %}
   </table>

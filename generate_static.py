@@ -67,6 +67,8 @@ def generate_song_index():
                 title_info.append(
                     {
                         'session': session,
+                        'number': recording[1][1].split('.')[0],
+                        'type': recording[1][1].split(',')[-1],
                         'title': recording[1][1],
                         'start': recording[0][1],
                         'sort': recording[2][1],
