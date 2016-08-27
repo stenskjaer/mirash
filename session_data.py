@@ -221,7 +221,7 @@ session_dict = {
         'session': 2,
         'pub_date': '2016-06-08',
         'duration': '01:05:32.000',
-        'description': 'Present: Mirash, Gjovalin, Minna.',
+        'description': 'Present: Mirash, Kahreman, Minna.',
         'chapters': [
             [
                 ['start', '00:00:00.000'],
