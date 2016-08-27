@@ -37,6 +37,7 @@ def generate_player_statics():
             'duration': data.session_dict[item]['duration'],
             'session': item,
             'description': data.session_dict[item]['description'],
+            'filesize': os.path.getsize('static/recordings/' + item + '.mp3'),
         }
         with open('pages/recordings/inject/' + item + '.html', 'w') as f:
             html = render_template('player.html', context)
