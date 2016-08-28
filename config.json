@@ -1,5 +1,5 @@
 {
     "aws-access-key": "AKIAJSZZYIJNFP5H5SJQ",
-    "aws-bucket-name": "mirash",
-    "aws-bucket-website": "mirash.s3-website-us-east-1.amazonaws.com"
+    "aws-bucket-name": "albanian-tales.net",
+    "aws-bucket-website": "albanian-tales.net.s3-website-us-east-1.amazonaws.com"
 }
