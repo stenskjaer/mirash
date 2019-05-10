@@ -5,9 +5,9 @@ Cactus==3.3.2
 certifi==2015.11.20.1
 colorama==0.3.6
 colorlog==2.6.0
-Django==1.6.11
+django>=1.11.19
 django-markwhat==1.5
-Jinja2==2.8
+Jinja2>=2.10.1
 keyring==7.3
 markdown2==2.3.0
 MarkupSafe==0.23
